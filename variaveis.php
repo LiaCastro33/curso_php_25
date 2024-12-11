@@ -62,3 +62,82 @@ $soma =  10 + 10;
 echo "<br>soma: " . $soma;
 
 // Tema de casa sera fazer a tabuada (6, 7) e mostra na tela.
+
+$numero = 6;
+echo "<br>tabuada:<br>";
+echo "<br> $numero x 1 = ". $numero * 1;
+echo "<br> $numero x 1 = ". $numero * 2;
+echo "<br> $numero x 1 = ". $numero * 3;
+echo "<br> $numero x 1 = ". $numero * 4;
+echo "<br> $numero x 1 = ". $numero * 5;
+echo "<br> $numero x 1 = ". $numero * 6;
+echo "<br> $numero x 1 = ". $numero * 7;
+echo "<br> $numero x 1 = ". $numero * 8;
+echo "<br> $numero x 1 = ". $numero * 9;
+echo "<br> $numero x 1 = ". $numero * 10;
+
+echo "<br>";
+
+$numero = 7;
+echo "<br>tabuada:<br>";
+echo "<br> $numero x 1 = ". $numero * 1;
+echo "<br> $numero x 1 = ". $numero * 2;
+echo "<br> $numero x 1 = ". $numero * 3;
+echo "<br> $numero x 1 = ". $numero * 4;
+echo "<br> $numero x 1 = ". $numero * 5;
+echo "<br> $numero x 1 = ". $numero * 6;
+echo "<br> $numero x 1 = ". $numero * 7;
+echo "<br> $numero x 1 = ". $numero * 8;
+echo "<br> $numero x 1 = ". $numero * 9;
+echo "<br> $numero x 1 = ". $numero * 10;
+
+/*
+/
++
+-
+. 
+= (ATRIBUICAO)
+== (COMPARACAO)
+>= (MAIOR IGUAL)
+<= (MENOR IGUAL)
+&& (E)
+|| (OU)
+% (MÓDULO) Pega o resto da divisao;
+
+if else - se senao 
+
+condicao == o que queremos avaliar/validar
+
+if (condicao) {
+    o que queremos executar/validar
+} else {
+     outro condicao
+}
+
+if (RESULTADO_CONDICAO_ANTERIOR == 10) {
+    o que queremos executar/validar
+} else {
+     outro condicao
+}
+
+$RESULTADO = 10 / 10; 1
+$RESULTADO = 10 % 10; 0
+
+*/
+
+/**
+ * Exercicio 1;
+ * Atribuir um valor para uma variavel chamado numero.
+ * e vamos informar ao usuario, se este numero é par ou impar.
+ */
+ 
+ echo "<br>";
+ echo "<br>";
+
+$numero = 10;
+
+if ($numero % 2 == 0){
+    echo "O $numero é par";
+}else{
+    echo "O $numero é impar";
+}
