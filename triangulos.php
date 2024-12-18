@@ -17,3 +17,11 @@
  if($ladoA == $ladoB == $ladoC) {
 	return "As medidadas informadas formam um triangulo equilatero"
  }
+
+ elseif($ladoA == $ladoB != $ladoC) {
+	return "As medidadas informadas formam um triangulo isoceles"
+ }
+ elseif($ladoA != $ladoB != $ladoC) {
+ return "As medidadas informadas formam um triangulo escaleno"
+
+ }
