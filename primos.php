@@ -13,27 +13,33 @@
 9 / 8 (9 -1) $numero -1
 */
 
-$numero = 9;
+$numero = 21;
 //9 / 8 (9 -1) $numero -1
 
 $limitador = $numero - 1;
 
-for ($i = 0; $i <= $limitador; $i++){
-    echo "i= $i<br>";
+for ($i = 2; $i <= $limitador; $i++){
+    //echo "i= $i<br>"; 
 
-    //break
-    
-}
+    $resto = $numero% $i;
+
+    //break  
 
 
 $i = 0;
 $i = $i + 1;
 $i++;
 
-
+if ($resto == 0) {
+    $primo = false;
+    break;
+   }
+}
 
 
 if ($primo){
-
-
+   echo "<br>O $numero é primo.";
+} else {
+   echo "<br>O $numero é não é primo.";
 }
+
