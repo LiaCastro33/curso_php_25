@@ -1,7 +1,7 @@
 <?php
 //Função para realizar operações
 
- $num1 =1155;
+ $num1 = 100;
  $num2 = 5;
 
  $operacao = "/";
@@ -23,6 +23,12 @@
  if ($operacao == "/") {
     $divisao = $num1 / $num2;
     echo "$divisao";
+
+
+    //Para fazer o percentual # = %
+
+      $Percentual = $num2 / 100;
+      echo "$Percentual";
  
 } else{
     echo "ERRO";
