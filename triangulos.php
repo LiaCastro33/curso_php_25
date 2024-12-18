@@ -8,20 +8,20 @@
  */
 
 
- $ladoA =10
- $ladoB =10
- $ladoC =10
+ $ladoA =3;
+ $ladoB =3;
+ $ladoC =6;
 
 
 
- if($ladoA == $ladoB == $ladoC) {
-	return "As medidadas informadas formam um triangulo equilatero"
+ if ($ladoA == $ladoB && $ladoB == $ladoC) {
+	echo "As medidadas informadas formam um triangulo equilatero";
  }
 
- elseif($ladoA == $ladoB != $ladoC) {
-	return "As medidadas informadas formam um triangulo isoceles"
+ elseif ($ladoA == $ladoB && $ladoB!= $ladoC) {
+	echo "As medidadas informadas formam um triangulo isoceles";
  }
- elseif($ladoA != $ladoB != $ladoC) {
- return "As medidadas informadas formam um triangulo escaleno"
+ else {
+ echo "As medidadas informadas formam um triangulo escaleno";
 
  }
